@@ -1,0 +1,68 @@
+{
+  "posts": [
+    {
+      "id": 2,
+      "name": "Frisky Food",
+      "email": "friskyfood@gmail.com",
+      "mobile": "9898989898",
+      "address": "H-333, Street 2, Radhey Shayam Vihar, Phase 4, Muradnagar",
+      "services": "Chinese, Italian, etc"
+    },
+    {
+      "id": 5,
+      "name": "Frisky Food",
+      "email": "friskyfood@gmail.com",
+      "mobile": "friskyfood@gmail.com",
+      "address": "friskyfood@gmail.com",
+      "services": "friskyfood@gmail.com"
+    }
+  ],
+  "signup": [
+    {
+      "name": "Gourav Sharma",
+      "email": "abc@test.com",
+      "mobile": "9898989898",
+      "password": "asf",
+      "id": 1
+    },
+    {
+      "name": "Gourav Sharma",
+      "email": "as@scd.scds",
+      "mobile": "Gourav Sharma",
+      "password": "sdcvdscv",
+      "id": 2
+    },
+    {
+      "name": "Frisky Food",
+      "email": "abc@test.cs",
+      "mobile": "9898989898",
+      "password": "test",
+      "id": 3
+    },
+    {
+      "name": "Gourav Sharma",
+      "email": "mrgaurav963@gmail.com",
+      "mobile": "9899717710",
+      "password": "gourav963",
+      "id": 4
+    },
+    {
+      "name": "Gourav Sharma",
+      "email": "mrgaurav963@gmail.com",
+      "mobile": "9899717710",
+      "password": "gourav963",
+      "id": 5
+    },
+    {
+      "name": "Gourav Sharma",
+      "email": "mrgaurav963@gmail.com",
+      "mobile": "9899717710",
+      "password": "test",
+      "id": 6
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

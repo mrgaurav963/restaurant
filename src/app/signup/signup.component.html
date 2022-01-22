@@ -1,0 +1,35 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="text-center">
+                    <h1>Restaurent Signup</h1>
+                    <h5>Feel free to Signup</h5>
+                    <hr>
+                </div>
+                <form [formGroup]="signupForm" (ngSubmit)="signUp()">
+                    <div class="mb-3">
+                        <label class="form-label">Name</label>
+                        <input formControlName="name" placeholder="Full Name" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Mobile Number</label>
+                        <input formControlName="mobile" placeholder="Mobile" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      </div>
+                    <div class="mb-3">
+                      <label class="form-label">Email address</label>
+                      <input formControlName="email" placeholder="Email ID" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div> 
+                    <div class="mb-3">
+                      <label class="form-label">Password</label>
+                      <input formControlName="password" placeholder="Enter Password" type="password" class="form-control" id="exampleInputPassword1">
+                    </div> 
+                    <button type="submit" class="btn btn-primary">Signup</button>
+                  </form>
+                  <br>
+                  <p> Already User ? Back to <a routerLink="/login">Login</a></p>
+            </div>
+        </div>
+    </div>
+</div>

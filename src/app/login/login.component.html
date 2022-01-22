@@ -1,0 +1,27 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="text-center">
+                    <h1>Restaurent Login</h1>
+                    <h5>Feel free to login</h5>
+                    <hr>
+                </div>
+                <form [formGroup]="loginForm" (ngSubmit)="login()">
+                    <div class="mb-3">
+                        <label class="form-label">Email address</label>
+                        <input type="email" placeholder="Enter Email" formControlName="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Password</label>
+                        <input type="password" placeholder="Enter Password" formControlName="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Login</button>
+                </form>
+                <br>
+                <p> New User ? Click to <a routerLink="/signup">Signup</a></p>
+            </div> 
+        </div>
+    </div>
+</div> 
